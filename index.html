@@ -28,7 +28,7 @@
         }
     </script>
 </head>
-<body class="font-noto bg-slate-950 text-white overflow-x-hidden">
+<body class="font-noto bg-gradient-to-br from-amber-50 via-orange-50 to-rose-50 text-slate-800 overflow-x-hidden">
     <!-- 마우스 커서 효과 -->
     <div class="cursor-glow" id="cursorGlow"></div>
     <div class="cursor-trail" id="cursorTrail"></div>
@@ -38,7 +38,7 @@
 
     <!-- 배경 효과 -->
     <div class="fixed inset-0 z-0">
-        <div class="absolute inset-0 bg-gradient-to-br from-slate-950 via-indigo-950 to-purple-950"></div>
+        <div class="absolute inset-0 bg-gradient-to-br from-amber-50 via-orange-50 to-rose-100"></div>
         <div class="floating-orb orb-1"></div>
         <div class="floating-orb orb-2"></div>
         <div class="floating-orb orb-3"></div>
@@ -54,7 +54,7 @@
     </div>
 
     <!-- 네비게이션 -->
-    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-slate-950/70 border-b border-white/10">
+    <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-white/80 border-b border-orange-200 shadow-sm">
         <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
             <a href="#" class="text-2xl font-bold logo-text">
                 <span class="letter" style="--i:0">일</span><span class="letter" style="--i:1">등</span><span class="letter" style="--i:2">학</span><span class="letter" style="--i:3">원</span>
@@ -66,7 +66,7 @@
                 <a href="#curriculum" class="nav-link magnetic-btn">커리큘럼</a>
                 <a href="#message" class="nav-link magnetic-btn">마무리</a>
             </div>
-            <button id="mobileMenuBtn" class="md:hidden text-white">
+            <button id="mobileMenuBtn" class="md:hidden text-slate-800">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -75,7 +75,7 @@
     </nav>
 
     <!-- 모바일 메뉴 -->
-    <div id="mobileMenu" class="fixed inset-0 z-40 bg-slate-950/95 backdrop-blur-xl hidden flex-col items-center justify-center gap-8">
+    <div id="mobileMenu" class="fixed inset-0 z-40 bg-white/95 backdrop-blur-xl hidden flex-col items-center justify-center gap-8">
         <a href="#intro" class="mobile-nav-link">소개</a>
         <a href="#curriculum" class="mobile-nav-link">커리큘럼</a>
         <a href="#message" class="mobile-nav-link">마무리</a>
@@ -93,25 +93,25 @@
             
             <div class="text-center max-w-4xl mx-auto">
                 <div class="hero-content">
-                    <div class="inline-block mb-6 px-4 py-2 rounded-full bg-white/10 border border-white/20 backdrop-blur-sm badge-float">
-                        <span class="text-sm text-indigo-300">✨ 체계적인 영어 학습의 시작</span>
+                    <div class="inline-block mb-6 px-4 py-2 rounded-full bg-white/80 border border-orange-200 backdrop-blur-sm badge-float shadow-sm">
+                        <span class="text-sm text-orange-600">✨ 체계적인 영어 학습의 시작</span>
                     </div>
                     
                     <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
-                        <span class="bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">영어,</span>
+                        <span class="bg-gradient-to-r from-orange-500 via-amber-500 to-yellow-500 bg-clip-text text-transparent">영어,</span>
                         <br>
-                        <span class="text-white">천천히</span>
+                        <span class="text-slate-800">천천히</span>
                         <br>
-                        <span class="text-white">그리고</span>
+                        <span class="text-slate-800">그리고</span>
                         <br>
-                        <span class="text-white">확실하게</span>
+                        <span class="text-slate-800">확실하게</span>
                     </h1>
                     
-                    <p class="text-xl md:text-2xl text-slate-300 mb-10 font-gowun typewriter-text">
+                    <p class="text-xl md:text-2xl text-slate-600 mb-10 font-gowun typewriter-text">
                         아이들의 속도에 맞춘 단계별 영어 교육 커리큘럼
                     </p>
                     
-                    <a href="#curriculum" class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-full text-lg font-semibold magnetic-btn ripple-btn hover:shadow-2xl hover:shadow-purple-500/30 transition-all duration-300 hover:scale-105">
+                    <a href="#curriculum" class="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-slate-800 rounded-full text-lg font-semibold magnetic-btn ripple-btn hover:shadow-2xl hover:shadow-orange-500/30 transition-all duration-300 hover:scale-105">
                         <span class="btn-text">커리큘럼 보기</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 arrow-bounce" viewBox="0 0 20 20" fill="currentColor">
                             <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -146,16 +146,16 @@
                 <div class="space-y-8">
                     <!-- 인사말 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl">
-                        <p class="text-xl text-white leading-relaxed font-medium mb-4">안녕하세요. 👋</p>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-xl text-slate-800 leading-relaxed font-medium mb-4">안녕하세요. 👋</p>
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             학부모님들이 영어교육에 대해 걱정이 많으신 걸 이해합니다.
                         </p>
                     </div>
 
                     <!-- 영어 vs 한글 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl delay-100">
-                        <p class="text-xl text-white leading-relaxed font-medium mb-4">영어는 어렵습니다.</p>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-xl text-slate-800 leading-relaxed font-medium mb-4">영어는 어렵습니다.</p>
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             반면에 우리 한글 쉽습니다. 한국말은 어렵지만, 한글, 훈민정음은 정말 쉽죠.
                             아무것도 배우지 않은 어린아이가 한 달만 있으면 훈민정음을 뗍니다. 훈민정음은 발음되는 대로 글자를 쓰기 때문에 어떠한 발음도 글자로 표기할 수 있습니다.
                         </p>
@@ -176,61 +176,61 @@
                             <span class="word-chip pop-in" style="--delay: 9">who</span>
                             <span class="word-chip pop-in" style="--delay: 10">sew</span>
                         </div>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             이 단어들의 발음을 우린 이미 알기 때문에 보자마자 말할 수 있습니다.
                         </p>
                     </div>
 
                     <!-- 파닉스의 한계 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl delay-300">
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun mb-4">
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun mb-4">
                             하지만 아이들은 파닉스를 외웠고, 발음기호를 외웠지만, 철자만 보고 바로 읽기란 매우 어렵습니다. 저 단어 중에는 아주 기초이고, 주니어 리딩에도 자주 나오는 단어들도 있는데 말이죠.
                         </p>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             사실 우리는 저 단어들을 파닉스로 읽지 않습니다. 아니 읽을 수 없습니다. 묵음이 있고 두 개 이상의 철자가 합쳐져서 발음되는 경우도 많기 때문입니다. 심지어 파닉스대로 발음되지 않는 경우도 있습니다.
                         </p>
                     </div>
 
                     <!-- 아이들의 질문 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl delay-400">
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun mb-4">
-                            아이들은 규칙에 맞춰서 공부를 해보지만 저런 예외와 불규칙을 만날 때마다 <span class="text-indigo-400 font-semibold">"왜요?"</span>라고 묻습니다. 하지만 명확하게 답해줄 수 없었습니다. 심지어 한글부터 공부가 끝난 아이들은 이 상황을 더 이해하기 힘듭니다.
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun mb-4">
+                            아이들은 규칙에 맞춰서 공부를 해보지만 저런 예외와 불규칙을 만날 때마다 <span class="text-orange-600 font-semibold">"왜요?"</span>라고 묻습니다. 하지만 명확하게 답해줄 수 없었습니다. 심지어 한글부터 공부가 끝난 아이들은 이 상황을 더 이해하기 힘듭니다.
                         </p>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             그럼 아이들은 그것을 이해할 수 없고 외우기 힘들어합니다. 그만큼 사람들은 이해가 되지 않는 것을 외우기란 힘듭니다. 그래서 결국 우리는 '이해했다' 라기 보다 머리에 각인되어서 '이해된 척'을 합니다.
                         </p>
                     </div>
 
                     <!-- 빅데이터 설명 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl delay-500">
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
-                            우리는 사전에 있는 발음기호를 보거나 귀로 발음을 따서 오랫동안 반복 노출되어 머릿속에 그 발음을 각인했습니다. 그것이 쌓여서 처음 보는 단어도 '이렇게 발음 되겠구나' 생각하고 발음을 유추해서 읽습니다. 그 유추된 발음은 정확할 수도 있고 아닐 수도 있지만, 추후에 사전으로 확인하거나 공부를 하다가 다시 듣게 되어 '맞았구나' 하고 각인이 됩니다. 요즘 표현으론 <span class="text-purple-400 font-semibold">빅데이터를 쌓는 것</span>이죠.
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
+                            우리는 사전에 있는 발음기호를 보거나 귀로 발음을 따서 오랫동안 반복 노출되어 머릿속에 그 발음을 각인했습니다. 그것이 쌓여서 처음 보는 단어도 '이렇게 발음 되겠구나' 생각하고 발음을 유추해서 읽습니다. 그 유추된 발음은 정확할 수도 있고 아닐 수도 있지만, 추후에 사전으로 확인하거나 공부를 하다가 다시 듣게 되어 '맞았구나' 하고 각인이 됩니다. 요즘 표현으론 <span class="text-amber-600 font-semibold">빅데이터를 쌓는 것</span>이죠.
                         </p>
                     </div>
 
                     <!-- 핵심 메시지 -->
-                    <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl border-l-4 border-amber-400 shake-attention">
-                        <p class="text-xl text-white leading-relaxed font-medium mb-4">
-                            💡 제가 드리고 싶은 말씀은 아이들이 다소 더디게 느끼시더라도 <span class="text-amber-400 highlight-text">시간을 주셨으면</span> 합니다.
+                    <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl border-l-4 border-orange-400 shake-attention">
+                        <p class="text-xl text-slate-800 leading-relaxed font-medium mb-4">
+                            💡 제가 드리고 싶은 말씀은 아이들이 다소 더디게 느끼시더라도 <span class="text-orange-600 highlight-text">시간을 주셨으면</span> 합니다.
                         </p>
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
                             언어는 개인차가 있습니다. 어릴 때부터 얼마나 노출되었는가도 중요하고, 일단 무엇보다 모든 공부는 흥미가 중요하기 때문입니다. 아이들이 이해가 되지 않는 것에 지치게 만들지 말아 주셨으면 합니다.
                         </p>
                     </div>
 
                     <!-- 알파벳과 단어 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl">
-                        <p class="text-lg text-slate-300 leading-relaxed font-gowun">
-                            처음 알파벳을 외우는 것은 금방 외우지만, 철자를 보고 단어를 읽게 되기까지는 정말 오래 걸립니다. 최대한 아이들이 단어를 <span class="text-cyan-400 font-semibold">눈으로, 귀로, 입으로</span> 노출되도록 노력하고 그에 따른 커리큘럼을 만들려고 노력하겠습니다.
+                        <p class="text-lg text-slate-600 leading-relaxed font-gowun">
+                            처음 알파벳을 외우는 것은 금방 외우지만, 철자를 보고 단어를 읽게 되기까지는 정말 오래 걸립니다. 최대한 아이들이 단어를 <span class="text-orange-500 font-semibold">눈으로, 귀로, 입으로</span> 노출되도록 노력하고 그에 따른 커리큘럼을 만들려고 노력하겠습니다.
                         </p>
                     </div>
 
                     <!-- 감사 인사 -->
                     <div class="reveal-on-scroll glass-card tilt-card p-8 rounded-3xl text-center">
-                        <p class="text-xl text-white leading-relaxed font-medium">
+                        <p class="text-xl text-slate-800 leading-relaxed font-medium">
                             읽어 주셔서 감사합니다. 🙏
                         </p>
-                        <p class="text-lg text-slate-400 mt-4 font-gowun">
+                        <p class="text-lg text-slate-600 mt-4 font-gowun">
                             다음 장은 단계별 커리큘럼입니다.
                         </p>
                     </div>
@@ -245,7 +245,7 @@
                     <h2 class="text-3xl md:text-5xl font-bold mb-6">
                         <span class="shimmer-text">단계별 커리큘럼</span>
                     </h2>
-                    <p class="text-xl text-slate-400 font-gowun">체계적인 10단계 영어 학습 로드맵</p>
+                    <p class="text-xl text-slate-600 font-gowun">체계적인 10단계 영어 학습 로드맵</p>
                 </div>
 
                 <!-- 커리큘럼 그리드 -->
@@ -255,15 +255,15 @@
                     <div class="curriculum-card reveal-on-scroll tilt-card" data-step="1">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image1.jpg" alt="알파벳과 친해지기" class="img-zoom">
+                            <img src="image1.jpg" alt="알파벳과 친해지기" class="img-zoom">
                             <div class="step-badge">STEP 1</div>
                         </div>
                         <div class="card-content">
                             <div class="step-icon-small bg-gradient-to-br from-rose-500 to-pink-500">
                                 <span>🔤</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">알파벳과 친해지기</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">알파벳과 친해지기</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 교재 '똑똑한 보카'로 알파벳 순서와 이름을 노래와 손으로 외웁니다.
                             </p>
                             <div class="flex flex-wrap gap-2">
@@ -278,15 +278,15 @@
                     <div class="curriculum-card reveal-on-scroll tilt-card" data-step="2">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image2.jpg" alt="대표적 발음 익히기" class="img-zoom">
+                            <img src="image2.jpg" alt="대표적 발음 익히기" class="img-zoom">
                             <div class="step-badge">STEP 2</div>
                         </div>
                         <div class="card-content">
                             <div class="step-icon-small bg-gradient-to-br from-orange-500 to-amber-500">
                                 <span>🔊</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">대표적 발음 익히기</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">대표적 발음 익히기</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 알파벳 당 가장 대표적인 발음을 배우는 단계입니다.
                             </p>
                             <div class="alphabet-mini">
@@ -303,15 +303,15 @@
                     <div class="curriculum-card reveal-on-scroll tilt-card" data-step="3">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image3.png" alt="발음기호 익히기" class="img-zoom">
+                            <img src="image3.png" alt="발음기호 익히기" class="img-zoom">
                             <div class="step-badge">STEP 3</div>
                         </div>
                         <div class="card-content">
                             <div class="step-icon-small bg-gradient-to-br from-yellow-500 to-lime-500">
                                 <span>📖</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">발음기호 익히기</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">발음기호 익히기</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 발음기호를 처음 배웁니다. 발음 기호표를 보면서 학습합니다.
                             </p>
                             <div class="flex flex-wrap gap-2">
@@ -326,19 +326,20 @@
                     <div class="curriculum-card reveal-on-scroll tilt-card" data-step="4">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image4.png" alt="발음기호 조합하기" class="img-zoom">
+                            <img src="image4.png" alt="발음기호 조합하기" class="img-zoom">
                             <div class="step-badge">STEP 4</div>
                         </div>
                         <div class="card-content">
                             <div class="step-icon-small bg-gradient-to-br from-green-500 to-emerald-500">
                                 <span>🧩</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">발음기호 조합하기</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">발음기호 조합하기</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 아이들이 제일 재밌어하는 부분! 외운 것이 바로 적용됩니다.
                             </p>
-                            <div class="highlight-mini">
-                                ✨ 뇌새김 프로그램 활용
+                            <div class="flex flex-wrap gap-2">
+                                <span class="tag-small">발음기호 적용</span>
+                                <span class="tag-small">실전 연습</span>
                             </div>
                         </div>
                         <div class="card-shine"></div>
@@ -348,15 +349,37 @@
                     <div class="curriculum-card reveal-on-scroll tilt-card" data-step="5">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image5.jpg" alt="파닉스 시험" class="img-zoom">
+                            <img src="image5.jpg" alt="뇌새김" class="img-zoom">
                             <div class="step-badge">STEP 5</div>
                         </div>
                         <div class="card-content">
                             <div class="step-icon-small bg-gradient-to-br from-teal-500 to-cyan-500">
+                                <span>💻</span>
+                            </div>
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">뇌새김</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
+                                영어단어 프로그램입니다. 매일 태블릿으로 1강씩 학습합니다.
+                            </p>
+                            <div class="highlight-mini">
+                                ✨ 뇌새김 프로그램 활용
+                            </div>
+                        </div>
+                        <div class="card-shine"></div>
+                    </div>
+
+                    <!-- Step 6 -->
+                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="6">
+                        <div class="card-glow"></div>
+                        <div class="card-image">
+                            <img src="image6.png" alt="파닉스 시험" class="img-zoom">
+                            <div class="step-badge">STEP 6</div>
+                        </div>
+                        <div class="card-content">
+                            <div class="step-icon-small bg-gradient-to-br from-cyan-500 to-blue-500">
                                 <span>📝</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">파닉스 시험</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">파닉스 시험</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 알파벳 이름과 실제 발음을 연관시켜 외우는 단계입니다.
                             </p>
                             <div class="flex flex-wrap gap-2">
@@ -367,19 +390,19 @@
                         <div class="card-shine"></div>
                     </div>
 
-                    <!-- Step 6 -->
-                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="6">
+                    <!-- Step 7 -->
+                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="7">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image6.png" alt="영단어 외우기" class="img-zoom">
-                            <div class="step-badge">STEP 6</div>
+                            <img src="image7.jpg" alt="영단어 외우기" class="img-zoom">
+                            <div class="step-badge">STEP 7</div>
                         </div>
                         <div class="card-content">
-                            <div class="step-icon-small bg-gradient-to-br from-cyan-500 to-blue-500">
+                            <div class="step-icon-small bg-gradient-to-br from-blue-500 to-indigo-500">
                                 <span>📚</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">영단어 외우기</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">영단어 외우기</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 본격적으로 영어단어를 외웁니다. 해마 학습법 적용!
                             </p>
                             <div class="highlight-mini blue">
@@ -389,19 +412,19 @@
                         <div class="card-shine"></div>
                     </div>
 
-                    <!-- Step 7 -->
-                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="7">
+                    <!-- Step 8 -->
+                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="8">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image7.jpg" alt="주니어 리딩" class="img-zoom">
-                            <div class="step-badge">STEP 7</div>
+                            <img src="image8.jpg" alt="주니어 리딩" class="img-zoom">
+                            <div class="step-badge">STEP 8</div>
                         </div>
                         <div class="card-content">
-                            <div class="step-icon-small bg-gradient-to-br from-blue-500 to-indigo-500">
+                            <div class="step-icon-small bg-gradient-to-br from-indigo-500 to-violet-500">
                                 <span>📱</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">주니어 리딩</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">주니어 리딩</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 '기적의 영어리딩'으로 듣고, 쓰고, 읽어봅니다.
                             </p>
                             <div class="level-mini">
@@ -414,19 +437,19 @@
                         <div class="card-shine"></div>
                     </div>
 
-                    <!-- Step 8 -->
-                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="8">
+                    <!-- Step 9 -->
+                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="9">
                         <div class="card-glow"></div>
                         <div class="card-image">
-                            <img src="image/image8.jpg" alt="초등문법" class="img-zoom">
-                            <div class="step-badge">STEP 8</div>
+                            <img src="image9.jpg" alt="초등문법" class="img-zoom">
+                            <div class="step-badge">STEP 9</div>
                         </div>
                         <div class="card-content">
-                            <div class="step-icon-small bg-gradient-to-br from-indigo-500 to-violet-500">
+                            <div class="step-icon-small bg-gradient-to-br from-violet-500 to-purple-500">
                                 <span>✏️</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">초등문법</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">초등문법</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
                                 '하루 한 장 잉글리시 바이트'로 기초 문법을 다집니다.
                             </p>
                             <div class="flex flex-wrap gap-2">
@@ -437,38 +460,15 @@
                         <div class="card-shine"></div>
                     </div>
 
-                    <!-- Step 9 -->
-                    <div class="curriculum-card reveal-on-scroll tilt-card" data-step="9">
-                        <div class="card-glow"></div>
-                        <div class="card-image">
-                            <img src="image/image9.jpg" alt="초등 리딩 + 문법" class="img-zoom">
-                            <div class="step-badge">STEP 9</div>
-                        </div>
-                        <div class="card-content">
-                            <div class="step-icon-small bg-gradient-to-br from-violet-500 to-purple-500">
-                                <span>📖</span>
-                            </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">리딩 + 문법</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
-                                '리더스뱅크', '주니어 타입 포 그래마'로 총정리!
-                            </p>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="tag-small">본격 독해</span>
-                                <span class="tag-small">총정리</span>
-                            </div>
-                        </div>
-                        <div class="card-shine"></div>
-                    </div>
-
                     <!-- Step 10 -->
                     <div class="curriculum-card reveal-on-scroll tilt-card final-card" data-step="10">
                         <div class="card-glow rainbow-glow"></div>
                         <div class="card-image-double">
                             <div class="card-image">
-                                <img src="image/image10.jpg" alt="중학 Prep 1" class="img-zoom">
+                                <img src="image10.jpg" alt="초등 리딩 + 문법 1" class="img-zoom">
                             </div>
                             <div class="card-image">
-                                <img src="image/image11.jpg" alt="중학 Prep 2" class="img-zoom">
+                                <img src="image11.jpg" alt="초등 리딩 + 문법 2" class="img-zoom">
                             </div>
                             <div class="step-badge final-badge">🎓 FINAL</div>
                         </div>
@@ -476,12 +476,12 @@
                             <div class="step-icon-small bg-gradient-to-br from-purple-500 to-pink-500">
                                 <span>🏆</span>
                             </div>
-                            <h3 class="text-xl font-bold mb-2 text-white">중학 Prep.</h3>
-                            <p class="text-slate-400 text-sm mb-3 font-gowun">
-                                중학교 영어를 선행하는 최종 단계입니다!
+                            <h3 class="text-xl font-bold mb-2 text-slate-800">초등 리딩 + 초등 문법</h3>
+                            <p class="text-slate-600 text-sm mb-3 font-gowun">
+                                '리더스뱅크', '주니어 타입 포 그래마'로 본격 독해와 문법 총정리!
                             </p>
                             <div class="achievement-mini">
-                                🎉 중학교 준비 완료!
+                                🎉 초등 영어 완성!
                             </div>
                         </div>
                         <div class="card-shine"></div>
@@ -504,11 +504,11 @@
             <div class="max-w-3xl mx-auto text-center relative z-10">
                 <div class="reveal-on-scroll glass-card tilt-card p-12 rounded-3xl message-card">
                     <div class="text-6xl mb-8 bounce-emoji">💝</div>
-                    <h2 class="text-3xl md:text-4xl font-bold mb-8 text-white">마지막으로</h2>
-                    <blockquote class="text-2xl text-slate-200 mb-8 font-gowun leading-relaxed">
-                        "영어는 <span class="text-amber-400 font-bold counter-highlight">단어가 80%</span> 이상이라는 말이 있습니다."
+                    <h2 class="text-3xl md:text-4xl font-bold mb-8 text-slate-800">마지막으로</h2>
+                    <blockquote class="text-2xl text-slate-700 mb-8 font-gowun leading-relaxed">
+                        "영어는 <span class="text-orange-600 font-bold counter-highlight">단어가 80%</span> 이상이라는 말이 있습니다."
                     </blockquote>
-                    <p class="text-xl text-slate-300 mb-8 font-gowun">
+                    <p class="text-xl text-slate-600 mb-8 font-gowun">
                         하루 5개라도 외우는 습관을 길러주세요.<br>
                         아이들에게 꾸준한 습관은 큰 자산이 될 거예요.
                     </p>
@@ -537,7 +537,7 @@
         </section>
 
         <!-- 푸터 -->
-        <footer class="py-12 px-6 border-t border-white/10 relative overflow-hidden">
+        <footer class="py-12 px-6 border-t border-orange-200 relative overflow-hidden">
             <div class="footer-particles"></div>
             <div class="max-w-7xl mx-auto text-center relative z-10">
                 <p class="text-2xl font-bold logo-text mb-4">
@@ -545,7 +545,17 @@
                     <span class="letter" style="--i:4"> </span>
                     <span class="letter" style="--i:5">영</span><span class="letter" style="--i:6">어</span><span class="letter" style="--i:7">교</span><span class="letter" style="--i:8">실</span>
                 </p>
-                <p class="text-slate-400 font-gowun">읽어 주셔서 감사합니다. 🙏</p>
+                <p class="text-slate-600 font-gowun mb-8">읽어 주셔서 감사합니다. 🙏</p>
+                
+                <!-- 연락처 -->
+                <div class="contact-section">
+                    <p class="text-lg font-semibold text-slate-700 mb-3">📞 영어 선생님 연락처</p>
+                    <a href="tel:01063977655" class="contact-btn">
+                        <span class="phone-icon">📱</span>
+                        <span class="phone-number">010-6397-7655</span>
+                        <span class="call-text">터치하여 전화하기</span>
+                    </a>
+                </div>
             </div>
         </footer>
     </main>

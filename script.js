@@ -50,7 +50,7 @@ document.querySelectorAll('a, button, .tilt-card, .word-chip').forEach(el => {
         if (cursorGlow) {
             cursorGlow.style.width = '80px';
             cursorGlow.style.height = '80px';
-            cursorGlow.style.background = 'radial-gradient(circle, rgba(168, 85, 247, 0.8), transparent)';
+            cursorGlow.style.background = 'radial-gradient(circle, rgba(234, 88, 12, 0.6), transparent)';
         }
     });
     
@@ -58,7 +58,7 @@ document.querySelectorAll('a, button, .tilt-card, .word-chip').forEach(el => {
         if (cursorGlow) {
             cursorGlow.style.width = '40px';
             cursorGlow.style.height = '40px';
-            cursorGlow.style.background = 'radial-gradient(circle, rgba(99, 102, 241, 0.8), transparent)';
+            cursorGlow.style.background = 'radial-gradient(circle, rgba(251, 146, 60, 0.6), transparent)';
         }
     });
 });
@@ -89,7 +89,7 @@ if (particleCanvas) {
             this.speedX = (Math.random() - 0.5) * 0.5;
             this.speedY = (Math.random() - 0.5) * 0.5;
             this.opacity = Math.random() * 0.5 + 0.2;
-            this.hue = Math.random() * 60 + 220; // 파랑-보라 계열
+            this.hue = Math.random() * 40 + 20; // 오렌지-노랑 계열
         }
         
         update() {
@@ -140,7 +140,7 @@ if (particleCanvas) {
                     ctx.beginPath();
                     ctx.moveTo(particles[i].x, particles[i].y);
                     ctx.lineTo(particles[j].x, particles[j].y);
-                    ctx.strokeStyle = `rgba(99, 102, 241, ${0.2 * (1 - distance / 120)})`;
+                    ctx.strokeStyle = `rgba(251, 146, 60, ${0.15 * (1 - distance / 120)})`;
                     ctx.lineWidth = 0.5;
                     ctx.stroke();
                 }
@@ -298,7 +298,7 @@ revealElements.forEach(element => {
 // Confetti 효과
 // ==========================================
 function createConfetti() {
-    const colors = ['#6366f1', '#a855f7', '#f472b6', '#fbbf24', '#22c55e', '#3b82f6'];
+    const colors = ['#f97316', '#fb923c', '#fbbf24', '#facc15', '#22c55e', '#ea580c'];
     
     for (let i = 0; i < 100; i++) {
         setTimeout(() => {
@@ -366,10 +366,10 @@ window.addEventListener('scroll', () => {
     const currentScrollY = window.scrollY;
     
     if (currentScrollY > 100) {
-        nav.style.background = 'rgba(2, 6, 23, 0.95)';
-        nav.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.3)';
+        nav.style.background = 'rgba(255, 255, 255, 0.95)';
+        nav.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.1)';
     } else {
-        nav.style.background = 'rgba(2, 6, 23, 0.7)';
+        nav.style.background = 'rgba(255, 255, 255, 0.8)';
         nav.style.boxShadow = 'none';
     }
     
@@ -512,7 +512,7 @@ if (footerParticles) {
             position: absolute;
             width: ${Math.random() * 4 + 2}px;
             height: ${Math.random() * 4 + 2}px;
-            background: rgba(99, 102, 241, ${Math.random() * 0.3 + 0.1});
+            background: rgba(251, 146, 60, ${Math.random() * 0.2 + 0.1});
             border-radius: 50%;
             left: ${Math.random() * 100}%;
             top: ${Math.random() * 100}%;
